@@ -144,4 +144,3 @@ If this repository supports your work, please use the metadata in [`CITATION.cff
 This repository contains selected implementation files, a de-identified sensor dataset, and representative results. Draft manuscripts, reviewer correspondence, temporary exports, backups, and unrelated laboratory data are intentionally excluded.
 
 Copyright © 2026 Angelos Galanos. All rights reserved. See [`LICENSE`](LICENSE).
-
