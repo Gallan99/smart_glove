@@ -18,11 +18,14 @@ A compact smart-glove project for measuring finger bending with five piezoresist
 |---|---|
 | [`stable_current_5sensors.ino`](stable_current_5sensors.ino) | Arduino firmware for reading and filtering five strain sensors. |
 | [`gui_script_v2.py`](gui_script_v2.py) | Tkinter interface for serial measurements, live plotting and data logging. |
+| [`kicad/`](kicad/) | KiCad project containing the schematic and PCB layout of the five-channel board. |
 | [`images/`](images/) | Photos of the prototype and representative sensor measurements. |
 
 ## Hardware
 
 The custom board contains five independent sensor-readout channels, a voltage reference, voltage regulation and Bluetooth connectivity.
+
+Open [`kicad/test1.kicad_pro`](kicad/test1.kicad_pro) in KiCad to inspect the complete schematic and PCB design.
 
 ![Smart-glove prototype](images/smart_glove_prototype.jpg)
 
