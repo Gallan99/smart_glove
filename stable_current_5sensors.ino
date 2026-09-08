@@ -20,8 +20,7 @@ float VNODE_VOLTS[NUM_SENSORS] = {
 const float ADC_REF_VOLTS = 4.970f;
 
 // Ρυθμός εξόδου
-// 50 ms = 20 Hz, matching the object-recognition acquisition protocol.
-const uint32_t REPORT_INTERVAL_MS = 50;
+const uint32_t REPORT_INTERVAL_MS = 100;
 
 // Samples ανά κανάλι σε κάθε περίοδο
 const uint16_t SAMPLES_PER_CHANNEL = 12;
